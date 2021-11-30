@@ -5,7 +5,7 @@
   <artifactId>ILP</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>ILP1UserMgmt Maven Webapp</name>
+  <name>Quiz Minds Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -15,13 +15,13 @@
       <scope>test</scope>
     </dependency>
     
-    <dependency>
+    		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>
-	<dependency>
+		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
@@ -65,7 +65,7 @@
 		
   </dependencies>
   <build>
-    <finalName>ILP_Bookstore</finalName>
+    <finalName>Quiz_Minds</finalName>
 
 	<plugins>
 			<plugin>
@@ -136,7 +136,7 @@
 				<version>2.2</version><!--$NO-MVN-MAN-VER$-->
 				<configuration>
 					<port>6080</port>
-					<path>/ILP_Bookstore</path>
+					<path>/Quiz_Minds</path>
 				</configuration>
 				<executions>
 					<execution>
@@ -203,7 +203,7 @@
 					<configuration>
 						<url>http://localhost:9090/manager/text</url>
 						<server>myserver</server>
-						<path>/ILP_Bookstore</path>
+						<path>/Quiz_Minds</path>
                    		 <update>true</update>
                    		 <username>admin</username>
                    		 <password>admin</password>

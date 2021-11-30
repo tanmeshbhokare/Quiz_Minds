@@ -18,7 +18,7 @@ input[type=text], input[type=password] {
 }
 
 button {
-    background-color:blue ;
+    background-color:#008CBA ;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -28,11 +28,13 @@ button {
 }
 
 button:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .container {
-    padding: 16px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 20px;
 }
 
 span.psw {
@@ -50,7 +52,7 @@ span.psw {
 </style>
 </head>
 <body>
-	<h1>Book Store</h1>
+	<h1 style="text-align:center">Quiz Minds</h1>
 	<form action="Login" method="post">
 	  <div class="container" >
 	    <label><b>Email</b></label>
@@ -63,7 +65,7 @@ span.psw {
 	  </div>
 	
 	  <div class="container" style="background-color:#f1f1f1">
-	    <span class="psw"><a href="forgotpassword.jsp">Forgot password?</a>&nbsp &nbsp <a href="register.jsp" id="register">New User ?</a> </span>
+	    <span class="psw"><a href="forgotpassword.jsp">Forgot password?</a>&nbsp &nbsp <a href="register.jsp" id="register">New User?</a> </span>
 	  </div>
 </form>
 </body>
