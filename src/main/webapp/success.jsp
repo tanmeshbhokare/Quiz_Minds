@@ -7,7 +7,7 @@
     <title>Quiz Minds</title>
   </head>
 
-  <body>
+  <body style="background-image: url('menu_bg.png');">
   <div id="row">
    <div id="col">
    <form method="get" action="quiz1.jsp">

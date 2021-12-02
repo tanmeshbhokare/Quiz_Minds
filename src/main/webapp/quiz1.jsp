@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Quiz Minds</title>
   </head>
-  <body>
+  <body style="background-image: url('quiz_bg.jpg');background-repeat: no-repeat;background-size: 100% 100%;">
     <div class="quiz-container" id="quiz">
       <div class="quiz-header">
         <h2 id="question">Question text</h2>

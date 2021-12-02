@@ -4,6 +4,14 @@
 <meta charset="ISO-8859-1">
 <title>Login</title>
 <style>
+body {
+  background-image: url('home_bg.png');
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+}
+
 form {
     border: 3px solid #f1f1f1;
 }
@@ -38,7 +46,7 @@ button:hover {
 }
 
 span.psw {
-    float: right;
+    float: left;
     padding-top: 16px;
 }
 
@@ -64,7 +72,7 @@ span.psw {
 	    <button type="submit">Login</button>
 	  </div>
 	
-	  <div class="container" style="background-color:#f1f1f1">
+	  <div>
 	    <span class="psw"><a href="forgotpassword.jsp">Forgot password?</a>&nbsp &nbsp <a href="register.jsp" id="register">New User?</a> </span>
 	  </div>
 </form>
